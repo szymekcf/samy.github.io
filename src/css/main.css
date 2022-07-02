@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+	--primary-color: #99E1D9;
+	--secondary-color: #70ABAF;
+	--back-color: #36044e;
+}
+
+body {
+	color: #fff;
+	background-color: var(--back-color);
+	font-family: 'Poppins', sans-serif;
+}
+
+#landingtitlte {
+	top: 30%;
+	left: 50%;
+	font-size: 50px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	display: flex;
+	animation-name: slidefromdown1;
+	animation-duration: 2s;
+}
+
+@keyframes slidefromdown1 {
+	from {top: 90%; opacity: 0%;}
+	to {top: 30%; opacity: 100%;}
+  }
+
+#landingtext {
+	top: 40%;
+	left: 50%;
+	font-size: 25px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	display: flex;
+	animation-name: slidefromdown2;
+	animation-duration: 2s;
+}
+
+@keyframes slidefromdown6 {
+	from {top:100%; opacity: 0%;}
+	to {top: 50%; opacity: 100%;}
+}
+
+#landingtext2 {
+	top: 50%;
+	left: 50%;
+	font-size: 25px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	display: flex;
+	animation-name: slidefromdown6;
+	animation-duration: 2s
+}
+
+@keyframes slidefromdown7 {
+	from {top: 100%; opacity: 0%;}
+	to {top: 60%; opacity: 100%;}
+}
+
+#landingtext3 {
+	top: 60%;
+	left: 50%;
+	font-size: 20px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	display: flex;
+	animation-name: slidefromdown7;
+	animation-duration: 2s;
+}
+
+@keyframes slidefromdown2 {
+	from {top: 100%; opacity: 0%;}
+	to {top: 40%; opacity: 100%;}
+  }
+
+#findmeon {
+	top: 70%;
+	left: 50%;
+	font-size: 25px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	display: flex;
+	animation-name: slidefromdown3;
+	animation-duration: 2s;
+}
+
+@keyframes slidefromdown3 {
+	from {top: 110%; opacity: 0%;}
+	to {top: 70%; opacity: 100%;}
+  }
+
+#twitch {
+	top: 80%;
+	left: 45%;
+	font-size: 25px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	display: flex;
+	animation-name: slidefromdown4;
+	animation-duration: 2s;
+}
+
+@keyframes slidefromdown4 {
+	from {top: 120%; opacity: 0%;}
+	to {top: 80%; opacity: 100%;}
+  }
+
+#youtube {
+	top: 80%;
+	left: 50%;
+	font-size: 25px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	display: flex;
+	animation-name: slidefromdown4;
+	animation-duration: 2s;
+}
+
+#discord {
+	top: 80%;
+	left: 55%;
+	font-size: 25px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	display: flex;
+	animation-name: slidefromdown4;
+	animation-duration: 2s;
+}
+
+#footer {
+	top: 90%;
+	left: 50%;
+	font-size: 23px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	display: flex;
+	animation-name: slidefromdown5;
+	animation-duration: 2s;
+}
+
+@keyframes slidefromdown5 {
+	from {top: 140%; opacity: 0%;}
+	to {top: 90%; opacity: 100%;}
+  }
+
+#coloredtext {
+	color: var(--primary-color)
+}
