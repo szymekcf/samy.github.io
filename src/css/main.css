@@ -12,6 +12,34 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@keyframes slidefromdown8 {
+	from {top: 90%; opacity: 0%;}
+	to {top: 15%; opacity: 100%;}
+}
+
+.button1 
+{
+	top: 15%;
+	left: 50%;
+	position: fixed;
+	background-color: #D9320E;
+	display: flex;
+	animation-name: slidefromdown8;
+	animation-duration: 2s;
+}
+
 #landingtitlte {
 	top: 30%;
 	left: 50%;
