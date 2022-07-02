@@ -12,4 +12,4 @@ or delete someone. I dunno, im just still in development.
 For more details add me on your server!
 (temporarily unavailable)
 ```
-Having trouble with bot? Chect out [this](https://szymek.cf/).
+Having trouble with bot? Check out [this](https://szymek.cf/).
