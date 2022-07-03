@@ -29,6 +29,8 @@ body {
   animation-duration: 2s;
 }
 
+.button1 {background-color: #555555;}
+
 @keyframes slidefromdown8 {
 	from {top: 90%; opacity: 0%;}
 	to {top: 15%; opacity: 100%;}
