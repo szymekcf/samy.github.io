@@ -29,7 +29,10 @@ body {
   animation-duration: 2s;
 }
 
-.button1 {background-color: #555555;}
+.button1 {
+	  background-color: #555555;
+	  top: 15%;
+  	  left: 50%;}
 
 @keyframes slidefromdown8 {
 	from {top: 90%; opacity: 0%;}
