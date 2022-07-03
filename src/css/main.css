@@ -13,6 +13,8 @@ body {
 }
 
 .button {
+  top: 15%;
+  left: 50%;
   border: none;
   background-color: #555555;
   color: white;
