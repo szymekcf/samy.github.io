@@ -42,7 +42,7 @@ body {
 .container {
 top: 15%;
 left: 50%;
-width: 50px;  
+width: 100px;  
 height: 50px;  
 border: 5px #FF0000;  
 display: grid;  
